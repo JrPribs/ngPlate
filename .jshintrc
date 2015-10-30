@@ -1,0 +1,33 @@
+{
+    "node": true, // Enable globals available when code is running inside of the NodeJS runtime environment.
+    "mocha": true, // enable support for mocha variables
+    "bitwise": false, // Prohibit bitwise operators (&, |, ^, etc.).
+    "camelcase": false, // Permit only camelcase for `var` and `object indexes`.
+    "curly": false, // Require {} for every new block or scope.
+    "eqeqeq": true, // Require triple equals i.e. `===`.
+    "immed": true, // Require immediate invocations to be wrapped in parens e.g. `( function(){}() );`
+    "latedef": "nofunc", // Prohibit variable use before definition.
+    "newcap": true, // Require capitalization of all constructor functions e.g. `new F()`.
+    "noarg": true, // Prohibit use of `arguments.caller` and `arguments.callee`.
+    "quotmark": "single", // Define quotes to string values.
+    "regexp": true, // Prohibit `.` and `[^...]` in regular expressions.
+    "undef": true, // Require all non-global variables be declared before they are used.
+    "unused": false, // Warn unused variables.
+    "strict": true, // Require `use strict` pragma in every file.
+    "trailing": true, // Prohibit trailing whitespaces.
+    "jquery": true,
+    "esnext": true,
+    "jasmine": true,
+    "indent": 4, // Specify indentation spacing
+    "predef": [
+        "-console", // node=true allows console, this turns it back off
+        "_",
+        "ApplicationConfiguration",
+        "angular",
+        "module",
+        "inject",
+        "offscreen"
+
+    ],
+    "noempty": true // Prohibit use of empty blocks.
+}
