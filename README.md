@@ -1,2 +1,2 @@
 # ngPlate
-AngularJS, ExpressJS, &amp; NodeJS app Boilerplate
+Developer friendly app boilerplate powered by AngularJS, ExpressJS, NodeJS and MORE!

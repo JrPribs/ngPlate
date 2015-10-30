@@ -1,0 +1,14 @@
+*~
+# Ignore OSX file system object
+.DS_Store
+.nodemonignore
+.sass-cache/
+
+# Ignore npm log file
+npm-debug.log
+
+# Ignore Node Modules
+/node_modules/
+
+# Ignore bower libraries
+public/lib

@@ -1,0 +1,23 @@
+{
+  "name": "ngPlate",
+  "description": "A fullstack JavaScript boilerplate powered by ExpressJS, AngularJS, NodeJS.",
+  "version": "0.0.1",
+  "authors": [
+    "https://github.com/JrPribs"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mean",
+    "angular",
+    "node",
+    "express"
+  ],
+  "homepage": "https://github.com/JrPribs",
+  "dependencies": {
+    "angular-ui-bootstrap": "~0.14.3",
+    "angular-ui-router": "~0.2.15",
+    "angular-ui": "~0.4.0",
+    "angular-ui-grid": "~3.0.7",
+    "lodash": "~3.10.1"
+  }
+}
