@@ -1,2 +1,2 @@
 # ngPlate
-Angular Express &amp; Node app Boilerplate
+AngularJS, ExpressJS, &amp; NodeJS app Boilerplate
