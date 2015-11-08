@@ -11,3 +11,6 @@ npm-debug.log
 
 # Ignore bower libraries
 public/lib
+
+# Ignore WebStorm config files
+.idea
