@@ -1,0 +1,23 @@
+# Language setting
+language: node_js
+
+# Version number
+node_js:
+  - 0.12.6
+
+os:
+  - linux
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - node_modules
+    - public/lib
+
+before_install:
+    - npm install -g gulp
+
+script: gulp
