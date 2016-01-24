@@ -45,6 +45,7 @@ gulp.task('compile:js', ['compile:html'], function() {
     return gulp.src('app/**/*.js')
         .pipe(sourcemaps.init())
         .pipe(ngAnnotate())
+        .pipe(babel())
         .pipe(concat('application.js'))
         .pipe(gulp.dest('public/dist'))
         .pipe(size({title: 'application.js'}))
