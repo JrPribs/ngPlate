@@ -7,7 +7,7 @@
 npm-debug.log
 
 # Ignore Node Modules
-/node_modules/
+node_modules/
 
 # Ignore bower libraries
 public/lib
@@ -17,4 +17,3 @@ public/dist
 
 # Ignore WebStorm config files
 .idea
-
